@@ -1,0 +1,65 @@
+
+       __   __  __                           __         __                            __      __           
+      /  \ /  \|  \                         |  \       |  \                          |  \    |  \          
+     /  $$/  $$ \$$\      ______    _______ | $$____  _| $$_     ______    _______  _| $$_    \$$  _______ 
+    /  $$/  $$   \$$\    /      \  /       \| $$    \|   $$ \   |      \  /       \|   $$ \  |  \ /       \
+   /  $$/  $$     \$$\  |  $$$$$$\|  $$$$$$$| $$$$$$$\\$$$$$$    \$$$$$$\|  $$$$$$$ \$$$$$$  | $$|  $$$$$$$
+  /  $$/  $$       \$$\ | $$    $$ \$$    \ | $$  | $$ | $$ __  /      $$ \$$    \   | $$ __ | $$| $$      
+ /  $$/  $$         \$$\| $$$$$$$$ _\$$$$$$\| $$  | $$ | $$|  \|  $$$$$$$ _\$$$$$$\  | $$|  \| $$| $$_____ 
+|  $$|  $$           \$$\\$$     \|       $$| $$  | $$  \$$  $$ \$$    $$|       $$   \$$  $$| $$ \$$     \
+ \$$  \$$             \$$ \$$$$$$$ \$$$$$$$  \$$   \$$   \$$$$   \$$$$$$$ \$$$$$$$     \$$$$  \$$  \$$$$$$$
+                                                                                                           
+                                                                                                           
+                                                                                                           
+
+
+Below you will find public Meshtastic Channels to use in conjunction with MQTT. 
+If setup properly, this should act as a backbone to the decentralized mesh network while the Internet is still up. 
+Additionally, it should not flood your your node db with the immense amount of nodes on the LongFast Channel. 
+
+These are the standard configuration settings that I suggest.
+
+Settings > LoRa
+  Modem preset: LONG_FAST
+  Hop limit: 3
+  Override frequency (MHz): 906.875
+  Ignore MQTT: unchecked
+  OK to MQTT: checked
+Settings > MQTT
+  MQTT enabled: checked
+  Address: mqtt.meshtastic.org
+  Username: meshdev
+  Password: large4cats
+  Encryption enabled: checked
+  JSON output enabled: unchecked
+  TLS enabled: unchecked
+  Root topic: msh/US   ##this allows the ablity to add other channels from other states if available and interested
+  Proxy to client enabled: checked
+  (optional) Map reporting: checked
+  Precise location: unchecked
+  (distance) 1194 ft ##this can be anything you feel comfortable with
+
+
+ _____ _                            _     
+/  __ \ |                          | |    
+| /  \/ |__   __ _ _ __  _ __   ___| |___ 
+| |   | '_ \ / _` | '_ \| '_ \ / _ \ / __|
+| \__/\ | | | (_| | | | | | | |  __/ \__ \
+ \____/_| |_|\__,_|_| |_|_| |_|\___|_|___/
+                                          
+                                          
+
+  Channel Name: Florida
+  Channel PSK: 2ad1vnUJSqCmNdUXTzdY0OvsRtMeEzNTHwuEG62kYEE=
+  Channel Name: ApolloBeach
+  Channel PSK: 9fcCG0/ziLc3xTIcZR8qOyY0w/kEHFyVZWgAQuTJ3/0=
+  Channel Name: FLHillsboro 
+  Channel PSK: 484fpRpE5X/pQvMpRibbzPOgC0nPge1lm1aaV/R4pLg=
+  Channel Name: FL_Clay
+  Channel PSK: FsedEfRLTcjvefUC2VFNMqylBq8+KxwC4TpKOWQKwcQ
+  Channel Name: FL_Duval
+  Channel PSK: e8l8uT23Z9b6e9R6eXyhNBkXQNpMILHzCHNY/tMmcLM=
+
+Feel free to reach out on any additional Channels and PSKs that you would like to add.
+
+
