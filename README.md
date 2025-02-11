@@ -9,6 +9,8 @@
 |  $$|  $$           \$$\\$$     \|       $$| $$  | $$  \$$  $$ \$$    $$|       $$   \$$  $$| $$ \$$     \
  \$$  \$$             \$$ \$$$$$$$ \$$$$$$$  \$$   \$$   \$$$$   \$$$$$$$ \$$$$$$$     \$$$$  \$$  \$$$$$$$
                                                                                                            
+
+                                                                                                           
                                                                                                            
 Please check out the corresponding Meshtastic public channel list to see how to access the local MQTT in your area. 
 Feel free to share your Channel and PSK for your public area. 
